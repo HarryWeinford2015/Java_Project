@@ -10,13 +10,13 @@ public class Launch {
 	public static void main(final String[] args) throws Exception {
 		
 		
-		LoginWindow wdw = new LoginWindow();
-		wdw.setVisible(true);
+		//LoginWindow wdw = new LoginWindow();
+		//wdw.setVisible(true);
 		
-		/*
 		
-		String host;
-		String username = "javaprojectnew";
+		
+		String host = "pop.gmx.net";
+		String username = "javaproject@gmx.de";
 		
 		String password = "javamail";
 		//String port;
@@ -24,9 +24,9 @@ public class Launch {
 		//port = "995";
 		
 		
-		ReceiveMail.receive(username, password);
+		ReceiveMail.receive(host, username, password);
 		
-	*/
+	
 		
 		
 	
